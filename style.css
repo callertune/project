@@ -23,9 +23,11 @@
   }
 
 @media (min-width: 601px) {
+    body {
     display: grid;
     place-content: center;
     grid-template-columns: minmax(440px, 1fr);
+    }
 }
  
   img, picture, video, canvas, svg {
