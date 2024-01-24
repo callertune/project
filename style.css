@@ -19,6 +19,8 @@
     background-image: url(./assset/microsoft-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    display: grid;
+    place-content: center;
   }
  
   img, picture, video, canvas, svg {
